@@ -2,7 +2,7 @@ spring:
   mail:
     host: smtp.163.com
     username: yaomengdi0429@163.com
-    password: KRLMJYRCMMYKUYPG
+    password: *
   datasource:
     url: jdbc:mysql://localhost:3306/springboot?serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
